@@ -1,0 +1,9 @@
+Origin: Your Name
+Label: Your own label
+Suite: ubuntu
+Codename: karmic
+Version: 9.10
+Architectures: i386 source
+Components: main restricted
+Description: Your description
+SignWith: default

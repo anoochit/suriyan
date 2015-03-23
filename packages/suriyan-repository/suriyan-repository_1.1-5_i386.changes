@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 29 Jul 2012 07:30:59 +0700
+Source: suriyan-repository
+Binary: suriyan-repository
+Architecture: source all
+Version: 1.1-5
+Distribution: precise
+Urgency: low
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Changed-By: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Description: 
+ suriyan-repository - Suriyan repository data
+Changes: 
+ suriyan-repository (1.1-5) precise; urgency=low
+ .
+   * initial release for precise
+Checksums-Sha1: 
+ dca1afd65c8af5cc90f422fd9667737ea057d58a 1091 suriyan-repository_1.1-5.dsc
+ c6f0311ece2d9d4b94bf395f12172f9459f9b6ed 2882 suriyan-repository_1.1-5.tar.gz
+ 018c0b32f16bdc39d58f538a2961f1fe680865ef 3360 suriyan-repository_1.1-5_all.deb
+Checksums-Sha256: 
+ 3ca56e533e8b6ef1f20cade4f925c325555734501c31b7116276475d5ee37162 1091 suriyan-repository_1.1-5.dsc
+ 5b09b61fe3b53e914ceeca69e05948bdc6f75059cc81f528c577af18c627dd8a 2882 suriyan-repository_1.1-5.tar.gz
+ aee0e902126f6af9df80622a0aeb6f5db1e673602686e6c9368bd314581e18b8 3360 suriyan-repository_1.1-5_all.deb
+Files: 
+ b7661d14991f44e1b1925b93a91d6f5e 1091 misc extra suriyan-repository_1.1-5.dsc
+ 656398edf6ff5e4265c614386122640c 2882 misc extra suriyan-repository_1.1-5.tar.gz
+ 8cfc775d2ab2eebd59a54ad3fa3b0540 3360 misc extra suriyan-repository_1.1-5_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJQFITpAAoJEMvlClC/8yfGErUH/Ayftlx9Tq2IfcPEc4soIHoY
+z/fYnwqzSry2deySU61On+lWozfJVFs9JOCqIFQKziIzPEgzLTQYoD8ydLAHX9S7
+zQdFW3TQWOhkidyreRmdJbYN5VErFYhd1WHD2vz+T+e25Ntkqp0g+RqgBVXmgU/g
+KO5TB1Jl6Jou/D2CwBSIYeNixK1PziiOpvOq/djBZFwXaCwaOBZr22yO7VlTvwPB
+h5F1VqCSfosjSlVlQ2iUcRrhAuNFFD5k0w8K5y7M0C4Bi6VAlksTTiadHW/VTlsU
+Z57cHTM1l8x598rdn5UVGR6FyddcD1rIf5XjPjI8vTTBjnhSomXMHy7/BPrKUmg=
+=5M00
+-----END PGP SIGNATURE-----

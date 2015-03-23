@@ -1,0 +1,22 @@
+This package was debianized by Anuchit Chalothorn <anuchit@redlinesoft.net> on
+Fri, 25 Dec 2009 13:23:56 +0700.
+
+It was downloaded from <http://code.google.com/p/suriyan>
+
+Copyright:
+
+    <Copyright (C) 2009 Anuchit Chalothorn>
+
+License:
+
+    Licensed under the GPL version 3, see `/usr/share/common-licenses/GPL-3'.
+
+The Debian packaging is:
+
+    Copyright (C) 2009 root <anuchit@redlinesoft.net>
+
+and is licensed under the GPL version 3, 
+see `/usr/share/common-licenses/GPL-3'.
+
+# Please also look if there are files or directories which have a
+# different copyright/license attached and list them here.

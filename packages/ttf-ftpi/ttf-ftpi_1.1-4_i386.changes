@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 31 Aug 2011 09:20:42 +0700
+Source: ttf-ftpi
+Binary: ttf-ftpi
+Architecture: source all
+Version: 1.1-4
+Distribution: oneiric
+Urgency: low
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Changed-By: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Description: 
+ ttf-ftpi   - Thai fonts from The Federation of Thai Printing Industries
+Changes: 
+ ttf-ftpi (1.1-4) oneiric; urgency=low
+ .
+   * initial for oneiric
+Checksums-Sha1: 
+ 215311682fcf486b7328d4be344f4950451b0800 1091 ttf-ftpi_1.1-4.dsc
+ 569056f14490ec23fef61ca63d6e6c7c78b0f056 6753671 ttf-ftpi_1.1-4.tar.gz
+ 3a968a4f79a8484a22611f8c071d21ed0b812d43 3383718 ttf-ftpi_1.1-4_all.deb
+Checksums-Sha256: 
+ 3cefde2a09980a929f6e95d7ee35b568f3c2bab53d0c1c69e87b7767f76e6f8c 1091 ttf-ftpi_1.1-4.dsc
+ ebe8e1c5fe647bd8544e20f900d38574a1cde4a6ce0b2908ce922f398e9a5c7c 6753671 ttf-ftpi_1.1-4.tar.gz
+ 6c688d8e8d7cb2b656e5311807f2593de39afe8541afe0eb5172d006f3c4fe6c 3383718 ttf-ftpi_1.1-4_all.deb
+Files: 
+ 3bc5579af733107ac42f4f2d416f452c 1091 x11 extra ttf-ftpi_1.1-4.dsc
+ a56561b1589a19f8f44fa6cd77dfa8e0 6753671 x11 extra ttf-ftpi_1.1-4.tar.gz
+ e5cf465aeaf8260fdd04336c7f764611 3383718 x11 extra ttf-ftpi_1.1-4_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJOXZrRAAoJEMvlClC/8yfGP58H/2xt4ojEu3LH2GwvJXB1nlXC
+d3z3CmzNyhl5EL8Z81N4MHcaU9uJgKplxPbbq0Sa8khcbhMfpZ+yWTDUYToC5NJb
+XZBaav4avsbkBEy5IXq+O8CL3rLjq8WORCzora2+y3PRdUVFFhNd0FR5ykjZiLzM
+5zWx14tXw+b8PcjFyf6ONcEJQeqj5ZbY/WzTbpVy6mJ+3rDzQydICbiXEeYhENef
+MBOkGigkRFcuNBHEPq7aweorB0bqxknZW3iNk9R+zCBZwNG+2yogemtCG8Pk2S++
+WwKZ2+5bEh/psKJh1Tr0eIux/PQ3zx4JsK6OdYMcwAfLaIANQLFHplJrXTU3CxQ=
+=jO7o
+-----END PGP SIGNATURE-----

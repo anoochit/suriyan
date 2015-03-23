@@ -1,0 +1,12 @@
+Package: ttf-ftpi
+Source: ttf-tepc
+Version: 1.0-1
+Architecture: all
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Installed-Size: 4380
+Depends: defoma
+Section: x11
+Priority: extra
+Homepage: http://www.tepclub.org
+Description: Thai fonts from The Federation of Thai Printing Industries
+ Thai fonts from The Federation of Thai Printing Industries.

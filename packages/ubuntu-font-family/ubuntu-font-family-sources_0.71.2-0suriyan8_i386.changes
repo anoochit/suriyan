@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 06 Sep 2011 10:21:07 +0700
+Source: ubuntu-font-family-sources
+Binary: ttf-ubuntu-font-family-fix
+Architecture: source all
+Version: 0.71.2-0suriyan8
+Distribution: oneiric
+Urgency: low
+Maintainer: maxcsmsu <maxcsmsu@gmail.com>
+Changed-By: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Description: 
+ ttf-ubuntu-font-family-fix - Ubuntu Font Family, sans-serif typeface hinted for clarity
+Changes: 
+ ubuntu-font-family-sources (0.71.2-0suriyan8) oneiric; urgency=low
+ .
+   * initial for suriyan package
+Checksums-Sha1: 
+ 6b559f5040f36a442a3f995731256206f9df2cda 1166 ubuntu-font-family-sources_0.71.2-0suriyan8.dsc
+ 8f29c36a77dfa4a58ee9dc773267e7d626558b07 3338676 ubuntu-font-family-sources_0.71.2-0suriyan8.tar.gz
+ 76afbdc4acff9c47ad93cd38894cf8e9de6b861d 7612 ttf-ubuntu-font-family-fix_0.71.2-0suriyan8_all.deb
+Checksums-Sha256: 
+ 0882cb7eb0445db0d06ccec4864dcd52d5db72f0719df213b646a75aa9cd5762 1166 ubuntu-font-family-sources_0.71.2-0suriyan8.dsc
+ fbf68ffb44327278146f11fc820e527f72f452046573bfc9dd6eff09831dd952 3338676 ubuntu-font-family-sources_0.71.2-0suriyan8.tar.gz
+ 856d23a46250566a11f69c1f47f69f829feadf64f2e2ff2eb7817b41f55fc444 7612 ttf-ubuntu-font-family-fix_0.71.2-0suriyan8_all.deb
+Files: 
+ 61731193b6374c2e97e691693267953f 1166 fonts optional ubuntu-font-family-sources_0.71.2-0suriyan8.dsc
+ ef58ded6d86a6850a424c56ca6d6b2c2 3338676 fonts optional ubuntu-font-family-sources_0.71.2-0suriyan8.tar.gz
+ 9a13350bf19890341cc5c6eb43ce7307 7612 fonts optional ttf-ubuntu-font-family-fix_0.71.2-0suriyan8_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJOZZPDAAoJEMvlClC/8yfGsq0H/0G06WC+BvIRfMyrAxxOGAHz
+Np4wxzngreXfmIaj6gmxI6BmgzfTpsUsG/dmlvzUhbTb2MJSO2SKoezhHIfrVpfo
+tZu2Pl0Rqv812Ndui+ieC/AylPfQb40daJN9UNrZsSwRzWZa1zpDawlXWbDPomCR
+eu+jITXKePfjpHn1yNpsiXC/w69nlQFH3jah8NUszoEV0rTn2zKseHjbq9w2/xcw
+AsSV+FF5Guk2rsSRAJix/c953hALKYd8tk1d0vs8f2VrETizoJxvMaRuSYBj3rX3
+L7G/L47Gne9w1fYKbEkfShjLSujZCrg7kcmfO0qaEDzB/kUfn+Z+ytDHGoMS844=
+=N5R8
+-----END PGP SIGNATURE-----

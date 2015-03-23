@@ -1,0 +1,11 @@
+Package: suriyan-repository
+Version: 1.1-5
+Architecture: all
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Installed-Size: 52
+Section: misc
+Priority: extra
+Homepage: http://code.google.com/p/suriyan
+Description: Suriyan repository data
+ setup repository data for Suriyan system, you can install/update suriyan
+ packages via APT or synaptic.

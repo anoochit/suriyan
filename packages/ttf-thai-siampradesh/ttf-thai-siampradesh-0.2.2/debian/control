@@ -1,0 +1,17 @@
+Source: ttf-thai-siampradesh
+Section: x11
+Priority: extra
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.1
+Homepage: http://linux.thai.net/projects/thaifonts-siampradesh
+
+Package: ttf-thai-siampradesh
+Architecture: all
+Depends: defoma
+Description: Thai TrueType fonts derived from DIP/SIPA contested fonts
+ This package provides Thai fonts derived from winning fonts of a contest arranged by 
+ Department of Intellectual Properties and Software Industry Promotion Agency, Thailand, 
+ in TrueType format. It includes fonts with new original designs for use in normal texts 
+ as well as decorative and hand-writing fonts. 
+

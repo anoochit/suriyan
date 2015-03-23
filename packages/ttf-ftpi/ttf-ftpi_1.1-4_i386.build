@@ -1,0 +1,69 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: export CFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export CPPFLAGS from dpkg-buildflags (origin: vendor): 
+dpkg-buildpackage: export CXXFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export FFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export LDFLAGS from dpkg-buildflags (origin: vendor): -Wl,-Bsymbolic-functions
+dpkg-buildpackage: source package ttf-ftpi
+dpkg-buildpackage: source version 1.1-4
+dpkg-buildpackage: source changed by Anuchit Chalothorn <anuchit@redlinesoft.net>
+ dpkg-source --before-build ttf-ftpi-1.1
+dpkg-buildpackage: host architecture i386
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-res
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-math
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-binfilter
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-calc
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-writer
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-base
+ fakeroot debian/rules clean
+dh_testdir
+dh_testroot
+rm -f build-stamp
+dh_clean
+rm -f debian/files
+ dpkg-source -b ttf-ftpi-1.1
+dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building ttf-ftpi in ttf-ftpi_1.1-4.tar.gz
+dpkg-source: info: building ttf-ftpi in ttf-ftpi_1.1-4.dsc
+ debian/rules build
+touch build-stamp
+ fakeroot debian/rules binary
+dh_testdir
+dh_testroot
+dh_clean -k
+dh_clean: dh_clean -k is deprecated; use dh_prep instead
+dh_install
+dh_testdir
+dh_testroot
+dh_installchangelogs 
+dh_installdocs
+dh_compress
+dh_installdefoma
+dh_fixperms
+dh_installdeb
+dh_gencontrol
+dh_md5sums
+dh_builddeb
+dpkg-deb: building package `ttf-ftpi' in `../ttf-ftpi_1.1-4_all.deb'.
+ dpkg-genchanges  >../ttf-ftpi_1.1-4_i386.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build ttf-ftpi-1.1
+dpkg-buildpackage: full upload; Debian-native package (full source is included)
+Now running lintian...
+W: ttf-ftpi source: native-package-with-dash-version
+W: ttf-ftpi source: debhelper-but-no-misc-depends ttf-ftpi
+W: ttf-ftpi source: dh-clean-k-is-deprecated
+E: ttf-ftpi source: temporary-debhelper-file ttf-tfpi.debhelper.log
+W: ttf-ftpi source: ancient-standards-version 3.8.1 (current is 3.9.1)
+E: ttf-ftpi: description-synopsis-is-duplicated
+E: ttf-ftpi: copyright-contains-dh_make-todo-boilerplate
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile ttf-ftpi_1.1-4.dsc BFF327C6
+gpg: Invalid passphrase; please try again ...
+
+ signfile ttf-ftpi_1.1-4_i386.changes BFF327C6
+
+Successfully signed dsc and changes files

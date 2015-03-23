@@ -1,0 +1,15 @@
+Source: ttf-sarabun-new
+Section: x11
+Priority: extra
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+#Vcs-Git: git://git.debian.org/collab-maint/ttf-sarabun-new.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/ttf-sarabun-new.git;a=summary
+
+Package: ttf-sarabun-new
+Architecture: all
+Depends: defoma
+Description: TH Sarabun New, Thai fonts from Software Industry Promotion Agency (Public Organization)
+ This package contain only th-sarabun-new, fixed font's hinting and change licinse to GNU/GPL 2.0+.
+

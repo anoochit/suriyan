@@ -1,0 +1,17 @@
+Source: suriyan-repository
+Section: misc
+Priority: extra
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: http://code.google.com/p/suriyan
+
+Package: suriyan-repository
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Suriyan repository data
+ setup repository data for Suriyan system, you can install/update suriyan 
+ packages via APT or synaptic.
+
+
+

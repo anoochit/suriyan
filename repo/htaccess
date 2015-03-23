@@ -1,0 +1,8 @@
+IndexIgnore index.html
+Options +Indexes
+Options +FollowSymLinks
+
+HeaderName HEADER.html
+ReadmeName FOOTER.html
+IndexIgnore .htaccess HEADER.html FOOTER.html cdicons
+IndexOptions NameWidth=* DescriptionWidth=* SuppressHTMLPreamble FancyIndexing

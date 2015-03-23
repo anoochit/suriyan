@@ -1,0 +1,2 @@
+#!/bin/sh
+reprepro includedeb precise ../deb/*.deb

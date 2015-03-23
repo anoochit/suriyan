@@ -1,0 +1,99 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: export CFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export CPPFLAGS from dpkg-buildflags (origin: vendor): 
+dpkg-buildpackage: export CXXFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export FFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export LDFLAGS from dpkg-buildflags (origin: vendor): -Wl,-Bsymbolic-functions
+dpkg-buildpackage: source package suriyan-repository
+dpkg-buildpackage: source version 1.1-4
+dpkg-buildpackage: source changed by Anuchit Chalothorn <anuchit@redlinesoft.net>
+ dpkg-source --before-build suriyan-repository-1.1
+dpkg-buildpackage: host architecture i386
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-res
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-math
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-binfilter
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-calc
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-writer
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-base
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b suriyan-repository-1.1
+dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building suriyan-repository in suriyan-repository_1.1-4.tar.gz
+dpkg-source: info: building suriyan-repository in suriyan-repository_1.1-4.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_installdirs
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installexamples
+   dh_installman
+   dh_installcatalogs
+   dh_installcron
+   dh_installdebconf
+   dh_installemacsen
+   dh_installifupdown
+   dh_installinfo
+   dh_pysupport
+   dh_installinit
+   dh_installmenu
+   dh_installmime
+   dh_installmodules
+   dh_installlogcheck
+   dh_installlogrotate
+   dh_installpam
+   dh_installppp
+   dh_installudev
+   dh_installwm
+   dh_installxfonts
+   dh_bugfiles
+   dh_lintian
+   dh_gconf
+   dh_icons
+   dh_perl
+   dh_usrlocal
+   dh_link
+   dh_compress
+   dh_fixperms
+   dh_strip
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+dpkg-gencontrol: warning: Depends field of package suriyan-repository: unknown substitution variable ${shlibs:Depends}
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package `suriyan-repository' in `../suriyan-repository_1.1-4_all.deb'.
+ dpkg-genchanges  >../suriyan-repository_1.1-4_i386.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build suriyan-repository-1.1
+dpkg-buildpackage: full upload; Debian-native package (full source is included)
+Now running lintian...
+W: suriyan-repository source: native-package-with-dash-version
+W: suriyan-repository source: out-of-date-standards-version 3.8.3 (current is 3.9.1)
+E: suriyan-repository: debian-changelog-file-contains-invalid-email-address xavier@anuchit-desktop
+W: suriyan-repository: executable-not-elf-or-script usr/share/suriyan/suriyan.key
+W: suriyan-repository: executable-not-elf-or-script usr/share/suriyan/suriyan.list
+E: suriyan-repository: copyright-contains-dh_make-todo-boilerplate
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile suriyan-repository_1.1-4.dsc BFF327C6
+
+ signfile suriyan-repository_1.1-4_i386.changes BFF327C6
+
+Successfully signed dsc and changes files

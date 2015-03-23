@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 27 Jul 2012 17:53:10 +0700
+Source: ttf-sarabun-new
+Binary: ttf-sarabun-new
+Architecture: source all
+Version: 1.3.2011-2
+Distribution: precise
+Urgency: low
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Changed-By: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Description: 
+ ttf-sarabun-new - TH Sarabun New, Thai fonts from Software Industry Promotion Agenc
+Changes: 
+ ttf-sarabun-new (1.3.2011-2) precise; urgency=low
+ .
+   * Initial release for precise
+Checksums-Sha1: 
+ 9503659ed5c59369ea5731f42fb9c150b996ecc0 1362 ttf-sarabun-new_1.3.2011-2.dsc
+ 3c30ed96d427d9789af420460625c88670bada9d 2937 ttf-sarabun-new_1.3.2011-2.debian.tar.gz
+ 9ad5129da8926dad128da935958ffd7fc964a2ed 440298 ttf-sarabun-new_1.3.2011-2_all.deb
+Checksums-Sha256: 
+ f267b0cfe15f3f8af8b5b85abedd0a1c06a9759589ea05ee701ea71df4c2f599 1362 ttf-sarabun-new_1.3.2011-2.dsc
+ c2ccd74b9910ee08ab19530064d3b9a4210328b7bef4a516b9b790d940895708 2937 ttf-sarabun-new_1.3.2011-2.debian.tar.gz
+ aa686bd7922fe3f53f0f1876451c9894cfacae7cefe2551904f68d919f5978fc 440298 ttf-sarabun-new_1.3.2011-2_all.deb
+Files: 
+ 3d221383046add0e2bac9236425775c7 1362 x11 extra ttf-sarabun-new_1.3.2011-2.dsc
+ 170e753edeaf249d123b574705058c46 2937 x11 extra ttf-sarabun-new_1.3.2011-2.debian.tar.gz
+ d0d23933806974985da400207fb44898 440298 x11 extra ttf-sarabun-new_1.3.2011-2_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJQEnNMAAoJEMvlClC/8yfG7jUIAJuVlM42k0qcYB48I9JIQ0dZ
+9Sc5RH3gTnoYlE1+0OFSTJ9+gl1x1lnm9Jomhc6aLOt8t02PV5SQpHlrvRS4ddCa
+f4ory/q48bfm8MJoGj2pplbuAlHLpOWjjK1qZh7fE5Ueg63DYWQY8vlkpk0bugjB
+Tbo3iFgPeMELdtaqNStzvIniQ4P9zuAHDdMvf6X4z5wIUaHst6VL/X72svxAGqJq
+dzTNsuoisdbNiQ8SjZY5l7mfqna3VgzKNo80JZOMW2P17xD5F/Hwn05U7fBgSbRY
+YalflqlVyelFRbyHPlddQPknOpURl7jb27IGAXvrweQwR13P66Z1RvNTta9wAOA=
+=TCh2
+-----END PGP SIGNATURE-----

@@ -1,0 +1,130 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: export CFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export CPPFLAGS from dpkg-buildflags (origin: vendor): 
+dpkg-buildpackage: export CXXFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export FFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export LDFLAGS from dpkg-buildflags (origin: vendor): -Wl,-Bsymbolic-functions
+dpkg-buildpackage: source package ubuntu-font-family-sources
+dpkg-buildpackage: source version 0.71.2-0suriyan8
+dpkg-buildpackage: source changed by Anuchit Chalothorn <anuchit@redlinesoft.net>
+ dpkg-source --before-build ubuntu-font-family-sources_0.71.2-0ubuntu6
+dpkg-buildpackage: host architecture i386
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-res
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-math
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-binfilter
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-calc
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-writer
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us
+dpkg-checkbuilddeps: warning: can't parse dependency libobasis33-en_us-base
+ fakeroot debian/rules clean
+test -x debian/rules
+dh_testroot
+dh_clean 
+ dpkg-source -b ubuntu-font-family-sources_0.71.2-0ubuntu6
+dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
+dpkg-source: warning: source directory 'ubuntu-font-family-sources_0.71.2-0ubuntu6' is not <sourcepackage>-<upstreamversion> 'ubuntu-font-family-sources-0.71.2'
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building ubuntu-font-family-sources in ubuntu-font-family-sources_0.71.2-0suriyan8.tar.gz
+dpkg-source: info: building ubuntu-font-family-sources in ubuntu-font-family-sources_0.71.2-0suriyan8.dsc
+ debian/rules build
+test -x debian/rules
+mkdir -p "."
+ fakeroot debian/rules binary
+test -x debian/rules
+dh_testroot
+dh_clean -k 
+dh_clean: dh_clean -k is deprecated; use dh_prep instead
+dh_installdirs -A 
+mkdir -p "."
+Adding cdbs dependencies to debian/ttf-ubuntu-font-family-fix.substvars
+dh_installdirs -pttf-ubuntu-font-family-fix 
+dh_installdocs -pttf-ubuntu-font-family-fix 
+dh_installexamples -pttf-ubuntu-font-family-fix 
+dh_installman -pttf-ubuntu-font-family-fix  
+dh_installinfo -pttf-ubuntu-font-family-fix  
+dh_installmenu -pttf-ubuntu-font-family-fix 
+dh_installcron -pttf-ubuntu-font-family-fix 
+dh_installinit -pttf-ubuntu-font-family-fix  
+Duplicate specification "O=s" for option "O"
+dh_installdebconf -pttf-ubuntu-font-family-fix 
+dh_installemacsen -pttf-ubuntu-font-family-fix   
+dh_installcatalogs -pttf-ubuntu-font-family-fix 
+dh_installpam -pttf-ubuntu-font-family-fix 
+dh_installlogrotate -pttf-ubuntu-font-family-fix 
+dh_installlogcheck -pttf-ubuntu-font-family-fix 
+dh_installchangelogs -pttf-ubuntu-font-family-fix  
+dh_installudev -pttf-ubuntu-font-family-fix 
+dh_lintian -pttf-ubuntu-font-family-fix 
+dh_bugfiles -pttf-ubuntu-font-family-fix 
+dh_install -pttf-ubuntu-font-family-fix  
+dh_link -pttf-ubuntu-font-family-fix  
+dh_installmime -pttf-ubuntu-font-family-fix 
+dh_strip -pttf-ubuntu-font-family-fix  
+dh_compress -pttf-ubuntu-font-family-fix  
+dh_fixperms -pttf-ubuntu-font-family-fix  
+dh_makeshlibs -pttf-ubuntu-font-family-fix  
+dh_installdeb -pttf-ubuntu-font-family-fix 
+dh_perl -pttf-ubuntu-font-family-fix 
+dh_shlibdeps -pttf-ubuntu-font-family-fix    
+dh_gencontrol -pttf-ubuntu-font-family-fix  
+# only call dh_scour for packages in main
+if grep -q '^Component:[[:space:]]*main' /CurrentlyBuilding 2>/dev/null; then dh_scour -pttf-ubuntu-font-family-fix ; fi
+# symlink identical documentation to depending packages
+[ -n "$CDBS_NO_DOC_SYMLINKING" ] || \
+	[ -h debian/ttf-ubuntu-font-family-fix/usr/share/doc ] || \
+	[ -h debian/ttf-ubuntu-font-family-fix/usr/share/doc/ttf-ubuntu-font-family-fix ] || \
+	[ ! -d debian/ttf-ubuntu-font-family-fix/usr/share/doc ] || \
+	myarch=$(sed -n -e's/^Architecture: *//p' debian/ttf-ubuntu-font-family-fix/DEBIAN/control); \
+	for dep in `perl -ne 'if (/^(Pre-)?Depends:/) {s/^\w+://; foreach (split /,/) { split; print($_[0], "\n"); } }' debian/ttf-ubuntu-font-family-fix/DEBIAN/control`; do \
+	    if [ -d debian/$dep/usr/share/doc ]; then \
+	        thisarch=$(sed -n -e's/^Architecture: *//p' debian/$dep/DEBIAN/control 2>/dev/null); \
+	        if [ "x$myarch" != "x$thisarch" ] && [ "x$thisarch" = xall ]; then \
+	            continue; \
+	        fi; \
+	        if [ -L debian/ttf-ubuntu-font-family-fix/usr/share/doc/ttf-ubuntu-font-family-fix ]; then \
+	            continue; \
+	        fi; \
+                echo "Searching for duplicated docs in dependency $dep..."; \
+                rootdir=`pwd`; \
+                (cd debian/ttf-ubuntu-font-family-fix/usr/share/doc/ttf-ubuntu-font-family-fix; find -type f ! -name copyright | while read f; do \
+                    thisfile="$rootdir/debian/ttf-ubuntu-font-family-fix/usr/share/doc/ttf-ubuntu-font-family-fix/$f"; \
+                    depfile="$rootdir/debian/$dep/usr/share/doc/$dep/$f"; \
+                    if [ -f $depfile -o -L $depfile ] && zcmp $thisfile $depfile >/dev/null; then \
+                        echo "  symlinking $f in ttf-ubuntu-font-family-fix to file in $dep"; \
+                        rm $thisfile; ln -s /usr/share/doc/$dep/$f $thisfile; \
+                    fi; \
+                done ); \
+            fi; \
+	done
+# symlink identical Gnome help files within packages
+if [ -z "$CDBS_NO_GNOME_HELP_SYMLINKING" ] && [ -d debian/ttf-ubuntu-font-family-fix/usr/share/gnome/help ]; then \
+            cd debian/ttf-ubuntu-font-family-fix && LC_ALL=C fdupes -r1nq usr/share/gnome/help | while read s; do \
+                set -- $(echo $s | tr ' ' '\n' | sort); \
+                f=$1; shift; \
+                for d; do \
+                    echo "symlinking duplicate Gnome help file $d to $f"; \
+                    rm $d; ln -s /$f $d; \
+                done; \
+            done; \
+	fi
+dh_link -p ttf-ubuntu-font-family-fix
+dh_md5sums -pttf-ubuntu-font-family-fix 
+dh_builddeb -pttf-ubuntu-font-family-fix 
+dpkg-deb: building package `ttf-ubuntu-font-family-fix' in `../ttf-ubuntu-font-family-fix_0.71.2-0suriyan8_all.deb'.
+ dpkg-genchanges  >../ubuntu-font-family-sources_0.71.2-0suriyan8_i386.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build ubuntu-font-family-sources_0.71.2-0ubuntu6
+dpkg-buildpackage: full upload; Debian-native package (full source is included)
+Now running lintian...
+E: ubuntu-font-family-sources source: temporary-debhelper-file ttf-ubuntu-font-family.debhelper.log
+W: ubuntu-font-family-sources source: maintainer-not-full-name maxcsmsu
+W: ubuntu-font-family-sources source: native-package-with-dash-version
+W: ttf-ubuntu-font-family-fix: maintainer-not-full-name maxcsmsu
+W: ttf-ubuntu-font-family-fix: empty-binary-package
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile ubuntu-font-family-sources_0.71.2-0suriyan8.dsc BFF327C6
+
+ signfile ubuntu-font-family-sources_0.71.2-0suriyan8_i386.changes BFF327C6
+
+Successfully signed dsc and changes files

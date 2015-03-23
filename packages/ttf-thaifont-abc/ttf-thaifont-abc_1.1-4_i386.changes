@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 31 Aug 2011 09:34:18 +0700
+Source: ttf-thaifont-abc
+Binary: ttf-thaifont-abc
+Architecture: source all
+Version: 1.1-4
+Distribution: oneiric
+Urgency: low
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Changed-By: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Description: 
+ ttf-thaifont-abc - Thai fonts for Linux by ThaiTux.info
+Changes: 
+ ttf-thaifont-abc (1.1-4) oneiric; urgency=low
+ .
+   * initial oneiric
+Checksums-Sha1: 
+ c647d0ff9c6860c7e7306dbcbc0b848da975dfbc 1087 ttf-thaifont-abc_1.1-4.dsc
+ 27e93c387ef7defb0d3e83ef4fb69e8f45cb9573 770833 ttf-thaifont-abc_1.1-4.tar.gz
+ 73fa3c638614d49b56ae728b216e479e3ebf300a 768282 ttf-thaifont-abc_1.1-4_all.deb
+Checksums-Sha256: 
+ 5627008ada6f80bb42172c3930bab9ff9c45ed31825a30b7362dd4be961ce6c4 1087 ttf-thaifont-abc_1.1-4.dsc
+ eae2dad12ac4c52e09c9305a0e73fbddd0b1b16d61b5eae3d2a3684ebcae7149 770833 ttf-thaifont-abc_1.1-4.tar.gz
+ 247173c87b5e7c91b439ffd65add3b42104b72f0954ec56cb46aa53409585338 768282 ttf-thaifont-abc_1.1-4_all.deb
+Files: 
+ c10fb4b71590e49aa65851bd387bae1d 1087 x11 extra ttf-thaifont-abc_1.1-4.dsc
+ a75c73fa4f67061b6c61df2bf65ef2cb 770833 x11 extra ttf-thaifont-abc_1.1-4.tar.gz
+ cd976bca6e511b4d213533b551f2b606 768282 x11 extra ttf-thaifont-abc_1.1-4_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJOXZ3aAAoJEMvlClC/8yfGB6EH+wcxto2nkv8yYMwy7ZxUOY6a
+kamvgbYbDAM/KApH4k/YDFZ4TOO5dSJkZJWgMEa2/vIWljqHCHMFJ9mZKNPkAm76
+OKVBpRGnaKKQqCfs2XBqvG8tZPlyiykSgJ1KjyBmKuGxFE3XOEA49+p0pzUKpmfY
+XBEcQhXB/WcIzbubkxikfMlMhFWvkZ+kyWWkmpTZaeQMRujfEHrvtk6jJMbWqBpV
+dq5oF0P2uqG/I8sW/cIcPobBhSX9bQhBHNqSczhvPE8yNg10lqr3oeKauqQAAuPU
+RGpxlwpWvLF7oNjU+VrYzcERNE6bhd1/ZIVaBz0Z3vUQNNWlzHI5d5vnLl/UEvo=
+=2PdY
+-----END PGP SIGNATURE-----

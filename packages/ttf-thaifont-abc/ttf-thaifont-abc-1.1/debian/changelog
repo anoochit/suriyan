@@ -1,0 +1,49 @@
+ttf-thaifont-abc (1.1-5) precise; urgency=low
+
+  * initial precise
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Sun, 29 Jul 2012 06:41:43 +0700
+
+ttf-thaifont-abc (1.1-4) oneiric; urgency=low
+
+  * initial oneiric
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Wed, 31 Aug 2011 09:34:18 +0700
+
+ttf-thaifont-abc (1.1-3) natty; urgency=low
+
+  * initial for natty
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Thu, 03 Mar 2011 11:19:32 +0700
+
+ttf-thaifont-abc (1.1-2) maverick; urgency=low
+
+  * add Ukhosa update 20100630
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Wed, 07 Jul 2010 13:54:45 +0700
+
+ttf-thaifont-abc (1.1-1) maverick; urgency=low
+
+  * rebuild for new distribution
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Wed, 23 Jun 2010 16:06:14 +0700
+
+ttf-thaifont-abc (1.0-12) lucid; urgency=low
+
+  * update font Taeyhom 20100516
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Sun, 16 May 2010 21:35:32 +0700
+
+ttf-thaifont-abc (1.0-11) lucid; urgency=low
+
+  * update font Taeyhom
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Thu, 29 Apr 2010 08:44:12 +0700
+
+ttf-thaifont-abc (1.0-10) lucid; urgency=low
+
+  * replace Tahoma with Taeyhom
+  * replace Calibri with Ansima
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Mon, 26 Apr 2010 09:27:36 +0700
+

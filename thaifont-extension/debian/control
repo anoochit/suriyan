@@ -1,0 +1,15 @@
+Source: thaifont-extension
+Section: x11
+Priority: extra
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://blog.redlinesoft.net/tag/suriyan
+#Vcs-Git: git://git.debian.org/collab-maint/thaifont-extension.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/thaifont-extension.git;a=summary
+
+Package: thaifont-extension
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Thai fonts for Ubuntu Desktop
+ Thai fonts for Ubuntu Desktop custom build from Suriyan repository.

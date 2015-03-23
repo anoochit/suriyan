@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 31 Aug 2011 09:28:20 +0700
+Source: ttf-tepc
+Binary: ttf-tepc
+Architecture: source all
+Version: 1.1-4
+Distribution: oneiric
+Urgency: low
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Changed-By: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Description: 
+ ttf-tepc   - Thai fonts from The Thai Electronic Publishing Club
+Changes: 
+ ttf-tepc (1.1-4) oneiric; urgency=low
+ .
+   * initial for oneiric
+Checksums-Sha1: 
+ 4ba8da266269cedf7577312df6e2f715e166927b 1067 ttf-tepc_1.1-4.dsc
+ 79ecf13636b230f43a785c25647d714501be9752 4204327 ttf-tepc_1.1-4.tar.gz
+ 5cf44ce5b0fdad8c77bde0252b10630aa6de9ba8 2101608 ttf-tepc_1.1-4_all.deb
+Checksums-Sha256: 
+ 6a882de931c4e6e6182af689ba14388bfb854b3d9d7babc85337e7ba998b14b7 1067 ttf-tepc_1.1-4.dsc
+ 99f36f5efe141d6878891fa5c980149f6ab17f96b45873263550a5090289472a 4204327 ttf-tepc_1.1-4.tar.gz
+ 23dc06c37326d9bc56dce96625e5cf534d916123b21cd6db3574e67bd7fa31a9 2101608 ttf-tepc_1.1-4_all.deb
+Files: 
+ 1b90012a76696a0ff4694bdc1eafb311 1067 x11 extra ttf-tepc_1.1-4.dsc
+ f16284dead0fdf4b86b1270cb2ea0454 4204327 x11 extra ttf-tepc_1.1-4.tar.gz
+ 50fd87d5651e0759c0bd9708bf6c66e1 2101608 x11 extra ttf-tepc_1.1-4_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJOXZx+AAoJEMvlClC/8yfGYK8IAJRXDu06p6VVjtYQvK6mc/nW
+XP2hlclFVy6QMqkYXj/dbZ0VdcLgS1FkGB64W8HtBpUnB99P5y06paU2CXUu59XR
+daGF4unGwr8Tl8NiiUmU45SbxrI/n5wiJm7CkjEj02r9gobzWR1xBCeHBM0iZtlu
+UtuT1glm277gcaeX29jdXnt2Qu4aeduUKfdVUPgRpOMx93aOjEJz3fpNgvCRpXTo
+CCAfgLbaOkPemG0odbituKLIDqQ9dxEnG2fg5d21qnR0jgzJsjZH/RIw9TogDgAg
+gYYeDChRdD+D6BpryVlaS6rK5lPOvsiQdQvDkQfWIKAC5nI7aDzXgjwFhfVrr3E=
+=QpdB
+-----END PGP SIGNATURE-----

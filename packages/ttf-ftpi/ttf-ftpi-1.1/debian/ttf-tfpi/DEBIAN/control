@@ -1,0 +1,11 @@
+Package: ttf-tfpi
+Version: 1.0-1
+Architecture: all
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Installed-Size: 7576
+Depends: defoma
+Section: x11
+Priority: extra
+Homepage: http://www.thaiprintingfederation.com/webfont/
+Description: Thai fonts from The Federation of Thai Printing Industries
+ Thai fonts from The Federation of Thai Printing Industries.

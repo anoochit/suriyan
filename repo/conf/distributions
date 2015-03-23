@@ -1,0 +1,60 @@
+Origin: Suriyan
+Label: Suriyan Repository
+Suite: ubuntu
+Codename: karmic
+Version: 9.10
+Architectures: i386 amd64 source
+Components: main restricted
+Description: Repository for extra packages
+SignWith: yes
+
+Origin: Suriyan
+Label: Suriyan Repository
+Suite: ubuntu
+Codename: lucid
+Version: 10.04
+Architectures: i386 amd64 source
+Components: main restricted
+Description: Repository for extra packages
+SignWith: yes
+
+Origin: Suriyan
+Label: Suriyan Repository
+Suite: ubuntu
+Codename: maverick
+Version: 10.10
+Architectures: i386 amd64 source
+Components: main restricted
+Description: Repository for extra packages
+SignWith: yes
+
+Origin: Suriyan
+Label: Suriyan Repository
+Suite: ubuntu
+Codename: natty
+Version: 11.04
+Architectures: i386 amd64 source
+Components: main restricted
+Description: Repository for extra packages
+SignWith: yes
+
+Origin: Suriyan
+Label: Suriyan Repository
+Suite: ubuntu
+Codename: oneiric
+Version: 11.10
+Architectures: i386 amd64 source
+Components: main restricted
+Description: Repository for extra packages
+SignWith: yes
+
+Origin: Suriyan
+Label: Suriyan Repository
+Suite: ubuntu
+Codename: precise
+Version: 12.04
+Architectures: i386 amd64 source
+Components: main restricted
+Description: Repository for extra packages
+SignWith: yes
+

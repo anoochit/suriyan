@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 31 Aug 2011 09:30:42 +0700
+Source: ttf-thai-siampradesh
+Binary: ttf-thai-siampradesh
+Architecture: source all
+Version: 0.2.2-4
+Distribution: oneiric
+Urgency: low
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Changed-By: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Description: 
+ ttf-thai-siampradesh - Thai TrueType fonts derived from DIP/SIPA contested fonts
+Changes: 
+ ttf-thai-siampradesh (0.2.2-4) oneiric; urgency=low
+ .
+   * initial oneiric
+Checksums-Sha1: 
+ 3c657eb1bbeb023868ff9f4e6186b0b1e4070b1a 1138 ttf-thai-siampradesh_0.2.2-4.dsc
+ 7cb5934ab762364cbd90e9e14b1030ba62441e6c 2596624 ttf-thai-siampradesh_0.2.2-4.tar.gz
+ 7094ea4af80c7bdd646ef80babe52291c422227f 2575428 ttf-thai-siampradesh_0.2.2-4_all.deb
+Checksums-Sha256: 
+ 07d7ad2c14a17a67f16942d0b0db9fad5653d1d1597fd0bc39aefa4946ff9e3c 1138 ttf-thai-siampradesh_0.2.2-4.dsc
+ 59992b3c3b72ab9977ad99e255f2d1ab198502104e831ff70f8f697ad8e82e35 2596624 ttf-thai-siampradesh_0.2.2-4.tar.gz
+ d5f1376e4d85a7047d4d017f11eee9ff743ad965e2bba5d48dfd115379da163b 2575428 ttf-thai-siampradesh_0.2.2-4_all.deb
+Files: 
+ bdd268466e5752c2134455ce9ffca926 1138 x11 extra ttf-thai-siampradesh_0.2.2-4.dsc
+ a42221cac2a694441ec3d0c7c0f101be 2596624 x11 extra ttf-thai-siampradesh_0.2.2-4.tar.gz
+ dd55a271ae402ca948fd0c06d0bfe63e 2575428 x11 extra ttf-thai-siampradesh_0.2.2-4_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJOXZ0gAAoJEMvlClC/8yfGDpcH/RqyqE/1Df9kJEi+HmeWdmZr
+kl++BjFaGHey6zKhXWpVF9eFLUy5YPRWlZ10PN+2qzS+di+LvqJ0NCOAsjhjWZKv
+UScmVyTCwQB8ygvRhNw6POazL1U/9/cF5RTtfIrDfALA9sGZdk0uZ2LgYoNkDnaN
+xFR0B3N8jeiIiNqsRfroRgZ+EP7XlCFMRXcAic/Sodcz24M+dY/9hRPYSSdu3rZr
+kwc9eqai3qAUmX6fIQKnwu/Nt8RsaMnPOAEL7ow7Q9Bi6Z4WX/b2hoi9LAHaRMjO
+GAsffk2yi/5FoGUpXkEabedz1XAgFHHzWERG3AdoB/WuhRX1yS8moOSMJuW3PHc=
+=tyXR
+-----END PGP SIGNATURE-----

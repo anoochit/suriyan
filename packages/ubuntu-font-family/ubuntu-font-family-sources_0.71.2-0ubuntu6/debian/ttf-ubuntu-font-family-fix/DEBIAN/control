@@ -1,0 +1,23 @@
+Package: ttf-ubuntu-font-family-fix
+Source: ubuntu-font-family-sources
+Version: 0.71.2-0suriyan8
+Architecture: all
+Maintainer: maxcsmsu <maxcsmsu@gmail.com>
+Installed-Size: 36
+Depends: defoma
+Conflicts: ubuntu-private-fonts, ubuntu-private-nda-fonts
+Replaces: ubuntu-private-fonts, ubuntu-private-nda-fonts
+Provides: ubuntu-private-fonts, ubuntu-private-nda-fonts
+Section: fonts
+Priority: optional
+Homepage: http://font.ubuntu.com/
+Description: Ubuntu Font Family, sans-serif typeface hinted for clarity
+ The Ubuntu Font Family are a set of matching new libre/open fonts in
+ development during 2010--2011. The development is being funded by
+ Canonical Ltd on behalf the wider Free Software community and the
+ Ubuntu project.  The technical font design work and implementation is
+ being undertaken by Dalton Maag.
+ .
+ Both the final font Truetype/OpenType files and the design files used
+ to produce the font family are distributed under an open licence and
+ you are expressly encouraged to experiment, modify, share and improve.

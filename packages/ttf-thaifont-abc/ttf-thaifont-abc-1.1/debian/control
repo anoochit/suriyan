@@ -1,0 +1,20 @@
+Source: ttf-thaifont-abc
+Section: x11
+Priority: extra
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.1
+Homepage: http://www.thaitux.info/node/275
+
+Package: ttf-thaifont-abc
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Thai fonts for Linux by ThaiTux.info
+ Thai fonts for Linux by ThaiTux.info, package include :
+  * Angsima
+  * Bromlila
+  * Corada
+  * Taeyhom
+  * Lomaputta
+  * Ukhosa
+

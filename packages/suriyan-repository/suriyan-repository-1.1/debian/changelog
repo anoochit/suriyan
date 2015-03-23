@@ -1,0 +1,72 @@
+suriyan-repository (1.1-5) precise; urgency=low
+
+  * initial release for precise
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Sun, 29 Jul 2012 07:30:59 +0700
+
+suriyan-repository (1.1-4) oneiric; urgency=low
+
+  * initial release for oneiric
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Tue, 24 May 2011 08:32:27 +0700
+
+suriyan-repository (1.1-3) natty; urgency=low
+
+  * initial release for natty
+
+ -- Anuchit Chalothorn <xavier@anuchit-desktop>  Thu, 03 Mar 2011 12:01:16 +0700
+
+suriyan-repository (1.1-1) maverick; urgency=low
+
+  * rebuild for maverick
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Fri, 25 Jun 2010 08:39:22 +0700
+
+suriyan-repository (1.0-8) lucid; urgency=low
+
+  * fix install script
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Thu, 08 Apr 2010 12:15:22 +0700
+
+suriyan-repository (1.0-7) lucid; urgency=low
+
+  * fix postrm script
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Thu, 08 Apr 2010 11:41:11 +0700
+
+suriyan-repository (1.0-6) lucid; urgency=low
+
+  * fix install action script
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Thu, 08 Apr 2010 11:28:09 +0700
+
+suriyan-repository (1.0-5) lucid; urgency=low
+
+  * add key file for repository
+  * fix post install 
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Wed, 24 Mar 2010 17:40:01 +0700
+
+suriyan-repository (1.0-4) lucid; urgency=low
+
+  * rebuild for lucid
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Sat, 20 Mar 2010 20:56:59 +0700
+
+suriyan-repository (1.0-3) lucid; urgency=low
+
+  * rebuild for lucid
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Tue, 02 Mar 2010 18:06:05 +0700
+
+suriyan-repository (1.0-2) karmic; urgency=low
+
+  * Fix source list for new repository.
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Mon, 04 Jan 2010 13:48:42 +0700
+
+suriyan-repository (1.0) karmic; urgency=low
+
+  * Initial release 
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Mon, 28 Dec 2009 14:30:56 +0700

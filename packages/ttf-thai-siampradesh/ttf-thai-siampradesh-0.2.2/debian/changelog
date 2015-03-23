@@ -1,0 +1,36 @@
+ttf-thai-siampradesh (0.2.2-5) precise; urgency=low
+
+  * initial precise
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Sun, 29 Jul 2012 06:43:13 +0700
+
+ttf-thai-siampradesh (0.2.2-4) oneiric; urgency=low
+
+  * initial oneiric
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Wed, 31 Aug 2011 09:30:42 +0700
+
+ttf-thai-siampradesh (0.2.2-3) natty; urgency=low
+
+  * initial release for natty
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Thu, 03 Mar 2011 11:32:39 +0700
+
+ttf-thai-siampradesh (0.2.2-2) maverick; urgency=low
+
+  * rebuild for new distribution
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Wed, 23 Jun 2010 16:32:46 +0700
+
+ttf-thai-siampradesh (0.2.2-1) lucid; urgency=low
+
+  * update post install script add fc-cache for update font cache.
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Tue, 23 Mar 2010 19:48:19 +0700
+
+ttf-thai-siampradesh (0.2.2-0) lucid; urgency=low
+
+  * Initial release
+  * Only TTF file from Debian Club repository
+
+ -- Anuchit Chalothorn <anuchit@redlinesoft.net>  Mon, 22 Mar 2010 09:15:20 +0700

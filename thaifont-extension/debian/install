@@ -1,0 +1,7 @@
+ttf-ftpi usr/share/fonts/truetype/
+ttf-siampradesh usr/share/fonts/truetype/
+ttf-sipa-dip usr/share/fonts/truetype/
+ttf-tepc usr/share/fonts/truetype/
+ttf-thaifont-abc usr/share/fonts/truetype/
+ttf-th-sarabun-new usr/share/fonts/truetype/
+conf.d/* etc/fonts/conf.d/

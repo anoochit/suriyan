@@ -1,0 +1,10 @@
+Origin: Suriyan
+Label: Suriyan Repository
+Suite: ubuntu
+Codename: precise
+Version: 12.04
+Architectures: i386
+Components: main
+Description: Repository for extra packages
+SignWith: yes
+

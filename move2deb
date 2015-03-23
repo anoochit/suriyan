@@ -1,0 +1,2 @@
+#!/bin/sh
+rsync -v build/new/var/cache/apt/archives/*.deb deb/

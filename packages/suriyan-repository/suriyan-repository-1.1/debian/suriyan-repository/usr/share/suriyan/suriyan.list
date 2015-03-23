@@ -1,0 +1,3 @@
+deb http://pub.thaiopensource.org/suriyan-repo precise main restricted
+deb-src http://pub.thaiopensource.org/suriyan-repo precise main restricted
+

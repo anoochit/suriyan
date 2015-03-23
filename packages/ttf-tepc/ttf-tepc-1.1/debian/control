@@ -1,0 +1,14 @@
+Source: ttf-tepc
+Section: x11
+Priority: extra
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Build-Depends: debhelper (>= 7), defoma (>= 0.8.11ubuntu2)
+Standards-Version: 3.8.1
+Homepage: http://www.tepclub.org
+
+Package: ttf-tepc
+Architecture: all
+Depends: defoma
+Description: Thai fonts from The Thai Electronic Publishing Club
+ Thai fonts from The Thai Electronic Publishing Club.
+

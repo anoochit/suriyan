@@ -1,0 +1,3 @@
+#!/bin/sh
+#rsync -r -u -v --delete -z repo/ xavier@192.168.80.89:/home/www/suriyan-repo
+rsync -r -u -v --delete -z repo/ xavier@pub.thaiopensource.org:/home/www/suriyan-repo

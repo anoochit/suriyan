@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 30 Aug 2011 15:41:21 +0700
+Source: ttf-sarabun-new
+Binary: ttf-sarabun-new
+Architecture: source all
+Version: 1.3.2011-1
+Distribution: oneiric
+Urgency: low
+Maintainer: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Changed-By: Anuchit Chalothorn <anuchit@redlinesoft.net>
+Description: 
+ ttf-sarabun-new - TH Sarabun New, Thai fonts from Software Industry Promotion Agenc
+Changes: 
+ ttf-sarabun-new (1.3.2011-1) oneiric; urgency=low
+ .
+   * Initial release
+Checksums-Sha1: 
+ 9f7fb64317d4cd7f2abc20e15935cc1681a631eb 1362 ttf-sarabun-new_1.3.2011-1.dsc
+ 3cdf93db83b05d1cde61728a25287b0648c17a60 440969 ttf-sarabun-new_1.3.2011.orig.tar.gz
+ 29ce8f2c76e2ebd610262453ff1cdeeffcb6dc5a 2867 ttf-sarabun-new_1.3.2011-1.debian.tar.gz
+ 53b23a03fbcd65099b8e62a3d40415e08c6f1484 439418 ttf-sarabun-new_1.3.2011-1_all.deb
+Checksums-Sha256: 
+ 46a6168ef5304eca0b023eac1faa20893d4232f59a101bf0f719f03fa91da7a3 1362 ttf-sarabun-new_1.3.2011-1.dsc
+ 1d17114bfe4be4dd8b2ee179a77f88ca7ab2ddbce1274dccae6a51b5e1f7c5b2 440969 ttf-sarabun-new_1.3.2011.orig.tar.gz
+ 597aa452264ba322872afae7d8ac304ba9a610d8a4803be610f01be79ba09263 2867 ttf-sarabun-new_1.3.2011-1.debian.tar.gz
+ 2f323c3d3c50f0d1a82146b8ed704dc5642e3c2a2a79dca2e663e489c5e6aa77 439418 ttf-sarabun-new_1.3.2011-1_all.deb
+Files: 
+ 63009fc3914b198753063f9082ed5ba4 1362 x11 extra ttf-sarabun-new_1.3.2011-1.dsc
+ af566056e97613cc99a34ceee485e0ca 440969 x11 extra ttf-sarabun-new_1.3.2011.orig.tar.gz
+ 3cb1772ff625e3c3905ad26505e2a385 2867 x11 extra ttf-sarabun-new_1.3.2011-1.debian.tar.gz
+ 700761dbcb37853253592a35c08a43b8 439418 x11 extra ttf-sarabun-new_1.3.2011-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEbBAEBAgAGBQJOXKSbAAoJEMvlClC/8yfG7SoH+Olvd7SU6QO8EnJw/673Tqbe
+pVv6nsJgJzbfAL6XvIKjJXc0d8GTRigI71lWXW4Ral2aiGbyI34K991L54psVl1W
+cayycNFaLaKnA6KPqJRwiT1zhVIqXajXzJJNGd9fZCnNE1oefgIcNa2hG4ER+vhg
+C4BOMMN0eUFllmhhuydhrlfm4TIdCbXvVR2S2lu3L4C/iGyTDQq5RJCNrfq2mMiS
+kUwJBBPTwcfduGv6Z/cFgxTGhBgqDFU5iFOyCcEtwoqU4/NUdtfUkEaDe201zpsY
+4QYlLrPWaq8gkV9cp1mdgp+DoBvB07rdiulUNBiwTiTP2mGbtlcPyBrHuZyrlA==
+=Gz6+
+-----END PGP SIGNATURE-----
